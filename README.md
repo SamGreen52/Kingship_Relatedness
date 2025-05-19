@@ -8,6 +8,6 @@ Files needed:
 -Relatedness_Script
 -relatedness_KING.R  (This assumes you have a pedigree file that has columns: Proband_id, Mom_id, and Father_ID. 
 
-1. ./plink2 --bfile output_ocd --chr 1-22 --make-bed --out FINAL_OCD_autosomes
-2. sbatch Relatedness_Script
+1. ./plink2 --bfile output_ocd --chr 1-22 --make-bed --out FINAL_OCD_autosomes (CHANGE THE BFILE OPTION TO YOUR PLINK FILE NAMES)
+2. sbatch Relatedness_Script 
 3. Run script relatedness_KING.R  in rstudio. 
