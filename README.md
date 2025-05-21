@@ -10,4 +10,7 @@ Files needed:
 
 1. ./plink2 --bfile output_ocd --chr 1-22 --make-bed --out FINAL_OCD_autosomes (CHANGE THE BFILE OPTION TO YOUR PLINK FILE NAMES)
 2. sbatch Relatedness_Script 
-3. Run script relatedness_KING.R  in rstudio. 
+3. Run script relatedness_KING.R  in rstudio.
+     A. Files needed:
+         -Manifest file
+         -
